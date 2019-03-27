@@ -6,7 +6,7 @@ let id = setInterval ( () => {
   console.log(n)
 }, 1000)
 ```
-``
+
 上面代码每秒打印一次n。但是由于只读取一次时间延迟，设置好以后无法更改时间延迟。 用``setTimeout()``来改写``setInterval()``可以解决这个问题。
 ```
 let duration = 1000
